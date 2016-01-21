@@ -332,7 +332,7 @@ class Gdb:
 		return self._cmd('-file-exec-and-symbols', filename)
 
 	def file_exec_file(self, filename):
-		return self._cmd('-file-exec-flie', filename)
+		return self._cmd('-file-exec-file', filename)
 
 	def file_list_sections(self):
 		return self._cmd('-file-list-exec-sections')
